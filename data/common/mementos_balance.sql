@@ -1,8 +1,9 @@
 -- Equal Footing memento balance.
--- Design default: use these rebalanced numbers for normal multiplayer; disable mementos for strict tournaments if the lobby exposes that option.
+-- Design default: all mementos stay playable, but runaway numbers are reduced.
+-- Unlocking all mementos is handled in config/unlock_all_mementos.sql.
 
--- Corpus Juris Civilis: extra policy slots are universal power. Leave the mechanic but mark for strict mode.
--- TODO: implement preset-gated memento disabling once setup-option hooks are verified.
+-- Corpus Juris Civilis: extra policy slots are universal power.
+-- TODO: verify whether slot count can be reduced without breaking equip rules.
 
 -- City-state tempo.
 UPDATE ModifierArguments SET Value = '40'

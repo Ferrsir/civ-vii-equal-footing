@@ -5,5 +5,6 @@
 | Art of War | Commander XP reduced | Fewer runaway promotions | TODO |
 | Shisa Necklace | Suzerain influence reduced | City-state tempo lower | TODO |
 | Lydian Lion | Gold reduced | Less opening buy tempo | TODO |
-| Corpus Juris Civilis | TODO preset gating | Strict mode disables or delays | TODO |
+| All mementos | Shell config reward level set to 1 and hidden flag cleared | All mementos visible/equippable when mod is enabled | TODO |
+| Corpus Juris Civilis | Slot-count reduction still needs ID verification | Extra policy-slot power reduced if exposed | TODO |
 | Pochteca Backpack | Trade range reduced | Still useful, not mandatory | TODO |

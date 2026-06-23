@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="civ-vii-equal-footing" version="0.1"
+<Mod id="civ-vii-equal-footing" version="0.1.1"
     xmlns="ModInfo">
     <Properties>
         <Name>LOC_MODULE_EQUAL_FOOTING_NAME</Name>
@@ -27,7 +27,6 @@
                     <Item>data/common/leaders_balance.sql</Item>
                     <Item>data/common/mementos_balance.sql</Item>
                     <Item>data/common/victory_balance.sql</Item>
-                    <Item>data/common/ai_parity.sql</Item>
                     <Item>data/common/global_balance.sql</Item>
                     <Item>data/common/policies_balance.sql</Item>
                     <Item>data/common/wonders_balance.sql</Item>
@@ -53,6 +52,9 @@
         </ActionGroup>
         <ActionGroup id="equal-footing-shell" scope="shell" criteria="always">
             <Actions>
+                <UpdateDatabase>
+                    <Item>config/unlock_all_mementos.sql</Item>
+                </UpdateDatabase>
                 <UpdateText>
                     <Item>text/en_us/EqualFootingText.xml</Item>
                 </UpdateText>

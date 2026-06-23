@@ -17,6 +17,6 @@
 
 - Leader abilities still appear and trigger.
 - Tooltip text mentions Equal Footing where changed.
-- Mementos still equip unless the lobby manually disables them.
+- Mementos are visible/equippable with the mod enabled, including mementos not unlocked on the local profile.
 - No victory path becomes obviously noncompetitive.
 - No start has direct adjacent natural wonder unless all starts are similarly strong.

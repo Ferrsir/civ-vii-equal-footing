@@ -29,15 +29,24 @@ Most balance changes are SQL updates against `ModifierArguments`. Missing DLC ro
 
 ## Mementos
 
-Recommended competitive defaults:
+Equal Footing keeps mementos playable and reduces the largest numbers rather than adding custom memento modes. The mod also includes a shell-scope config patch that moves memento legend-path rewards to level 1 and unhides memento frontend rows. Because Civ VII's schema notes that DNA entitlements can govern actual unlocks, this is marked for in-game verification.
 
-- Strict Competitive: disable mementos in lobby rules if the game exposes that option.
-- Equal Footing Rebalance: use this mod's memento number reductions.
-- Vanilla: use no memento changes.
-- Normalized Attribute Mode: future mode, pending setup option and memento replacement validation.
+## Victory Rebalancing
 
-## FairStart
+Victory work focuses on exposed legacy-path scoring and thresholds first:
+
+- Reduce conquest-to-victory snowball values where direct modifier arguments exist.
+- Raise or slow overly short VP thresholds when exposed.
+- Leave hidden or non-exposed systems untouched until the exact database IDs are verified.
+
+## Better Start Positions
 
 FairStart scaffolds score starts by food, production, fresh water, luxury access, strategic resources, expansion room, natural wonder proximity, coast quality, terrain bias support, independent power proximity, and player spacing.
 
-TODO: verify whether Civ VII map generation exposes a stable pre-placement hook for moving starts. The current JS files are safe scoring scaffolds, not active start relocation scripts.
+Better Start Positions is optional for the first Workshop release. The current JS files are safe scoring scaffolds, not active start relocation scripts. The next step is verifying whether Civ VII exposes a stable pre-placement hook for moving starts.
+
+## Workshop Release Scope
+
+- Include the SQL balance files, shell memento unlock patch, text updates, FairStart scoring scaffolds, docs, and testing matrix.
+- Do not include AI parity presets, setup-option mode UI, or custom memento modes.
+- Before upload, run one base-game smoke test, one all-owned-DLC smoke test, and one multiplayer lobby creation test.
