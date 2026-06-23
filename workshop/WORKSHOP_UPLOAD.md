@@ -3,6 +3,7 @@
 ## Preflight
 
 - Confirm `civ-vii-equal-footing.modinfo` appears in Additional Content as `Civ VII: Equal Footing`.
+- For local testing on this machine, install to `C:\Users\ferri\AppData\Local\Firaxis Games\Sid Meier's Civilization VII\Mods\civ-vii-equal-footing`.
 - Start one single-player game with base game content only.
 - Start one single-player game with all owned DLC enabled.
 - Create one multiplayer lobby with the mod enabled.

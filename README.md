@@ -8,7 +8,7 @@ This first implementation uses verified Civ VII database tables and modifier IDs
 
 ## Install
 
-Copy this folder into the Civ VII Mods folder used by your install, then enable "Civ VII: Equal Footing" in Additional Content. The installed folder should be named `civ-vii-equal-footing` and contain `civ-vii-equal-footing.modinfo` at its top level.
+Copy this folder into the Civ VII Mods folder used by your install, then enable "Civ VII: Equal Footing" in Additional Content. On this machine, the active scanned folder is `C:\Users\ferri\AppData\Local\Firaxis Games\Sid Meier's Civilization VII\Mods`. The installed folder should be named `civ-vii-equal-footing` and contain `civ-vii-equal-footing.modinfo` at its top level.
 
 ## Current Scope
 
