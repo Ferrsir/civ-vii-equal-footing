@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.4
+
+- Changed the root modinfo `version` attribute to integer `1` so Civ VII does not parse the module version as `0`.
+- Added late load order to Equal Footing action groups so balance/text overrides apply after base and DLC content.
+
 ## 0.1.3
 
 - Renamed the modinfo file to `civ-vii-equal-footing.modinfo` so the file, folder, and mod id can match in the installed package.
