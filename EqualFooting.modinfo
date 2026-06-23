@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="civ-vii-equal-footing" version="0.1.1"
-    xmlns="ModInfo">
+<Mod id="civ-vii-equal-footing" version="0.1.2" xmlns="ModInfo">
     <Properties>
-        <Name>LOC_MODULE_EQUAL_FOOTING_NAME</Name>
-        <Description>LOC_MODULE_EQUAL_FOOTING_DESCRIPTION</Description>
-        <Authors>Equal Footing contributors</Authors>
+        <Name>Civ VII: Equal Footing</Name>
+        <Description>Competitive multiplayer balance for leaders, civilizations, units, buildings, wonders, policies, mementos, victory pacing, and starts.</Description>
+        <Authors>Ferrsir and Equal Footing contributors</Authors>
         <EnabledByDefault>1</EnabledByDefault>
-        <Package>EqualFooting</Package>
+        <ShowInBrowser>1</ShowInBrowser>
+        <Package>Mod</Package>
+        <AffectsSavedGames>1</AffectsSavedGames>
+        <Version>0.1.2</Version>
     </Properties>
     <Dependencies>
         <Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>

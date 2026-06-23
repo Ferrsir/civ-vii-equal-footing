@@ -13,6 +13,7 @@ Copy this folder into the Civ VII Mods folder used by your install, then enable 
 ## Current Scope
 
 - Rebalanced leaders, civilizations, units, buildings, wonders, traditions/policies, mementos, and victory-related numbers where the local Civ VII database exposes stable IDs.
+- Immediate next balance phase: every leader and every civilization by era.
 - High-priority leader number tuning for Ada Lovelace, Augustus, Confucius, Friedrich Oblique, Harriet Tubman, Himiko Queen of Wa, Machiavelli, Tecumseh, Xerxes King of Kings, and selected DLC leaders where verified IDs exist.
 - First-pass memento tuning for the most dangerous slot, commander XP, city-state, gold, and tradition-scaling mementos.
 - Shell-scope config patch that attempts to make all memento rewards available when the mod is enabled.

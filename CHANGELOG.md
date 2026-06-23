@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2
+
+- Changed mod browser metadata to plain visible fields so Add-ons can show the module without depending on localized title lookup.
+- Added explicit `ShowInBrowser`, `AffectsSavedGames`, and package/version properties matching known visible local mods.
+
 ## 0.1.1
 
 - Narrowed the mod scope to balance changes, memento unlock/rebalance, victory rebalancing, documentation, Workshop prep, and optional Better Start Positions.
