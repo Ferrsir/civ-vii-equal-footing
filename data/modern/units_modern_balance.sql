@@ -1,0 +1,2 @@
+-- Modern unit balance.
+-- TODO: verify air/naval late-game alpha-strike modifiers before changing numbers.

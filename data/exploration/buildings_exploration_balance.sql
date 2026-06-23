@@ -1,0 +1,2 @@
+-- Exploration buildings balance.
+-- TODO: verify happiness/defense infrastructure IDs for careful buffs.

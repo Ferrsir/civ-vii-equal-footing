@@ -1,0 +1,2 @@
+-- Exploration unit balance.
+-- TODO: verify Exploration naval harassment and free-unit reward IDs.

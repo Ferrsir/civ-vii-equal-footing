@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_MODULE_EQUAL_FOOTING_NAME" Text="Civ VII: Equal Footing"/>
+        <Row Tag="LOC_MODULE_EQUAL_FOOTING_DESCRIPTION" Text="Competitive multiplayer balance that preserves each identity while reducing runaway snowball numbers."/>
+    </EnglishText>
+    <LocalizedText>
+        <Update>
+            <Where Language="en_US" Tag="LOC_TRAIT_LEADER_ADA_LOVELACE_ABILITY_DESCRIPTION"/>
+            <Set Text="Equal Footing: Mastery science and culture loops are reduced to slow runaway scaling while preserving Ada's mastery identity."/>
+        </Update>
+        <Update>
+            <Where Language="en_US" Tag="LOC_TRAIT_LEADER_CONFUCIUS_ABILITY_DESCRIPTION"/>
+            <Set Text="Equal Footing: City growth bonus reduced; specialist science identity preserved."/>
+        </Update>
+        <Update>
+            <Where Language="en_US" Tag="LOC_TRAIT_LEADER_XERXES_ABILITY_NAME"/>
+            <Set Text="Equal Footing: Xerxes keeps conquest and empire gold tempo with reduced burst rewards."/>
+        </Update>
+        <Update>
+            <Where Language="en_US" Tag="LOC_TRAIT_LEADER_TECUMSEH_ABILITY_NAME"/>
+            <Set Text="Equal Footing: Tecumseh keeps city-state scaling with reduced Dominion and yield snowballing."/>
+        </Update>
+    </LocalizedText>
+</Database>

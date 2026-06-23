@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="civ-vii-equal-footing" version="0.1"
+    xmlns="ModInfo">
+    <Properties>
+        <Name>LOC_MODULE_EQUAL_FOOTING_NAME</Name>
+        <Description>LOC_MODULE_EQUAL_FOOTING_DESCRIPTION</Description>
+        <Authors>Equal Footing contributors</Authors>
+        <EnabledByDefault>1</EnabledByDefault>
+        <Package>EqualFooting</Package>
+    </Properties>
+    <Dependencies>
+        <Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+    </Dependencies>
+    <References>
+        <Mod id="core" title="LOC_MODULE_CORE_NAME"/>
+        <Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+    </References>
+    <ActionCriteria>
+        <Criteria id="always">
+            <AlwaysMet/>
+        </Criteria>
+    </ActionCriteria>
+    <ActionGroups>
+        <ActionGroup id="equal-footing-game" scope="game" criteria="always">
+            <Actions>
+                <UpdateDatabase>
+                    <Item>data/common/leaders_balance.sql</Item>
+                    <Item>data/common/mementos_balance.sql</Item>
+                    <Item>data/common/victory_balance.sql</Item>
+                    <Item>data/common/ai_parity.sql</Item>
+                    <Item>data/common/global_balance.sql</Item>
+                    <Item>data/common/policies_balance.sql</Item>
+                    <Item>data/common/wonders_balance.sql</Item>
+                    <Item>data/common/constructibles_balance.sql</Item>
+                    <Item>data/antiquity/civs_antiquity_balance.sql</Item>
+                    <Item>data/antiquity/units_antiquity_balance.sql</Item>
+                    <Item>data/antiquity/buildings_antiquity_balance.sql</Item>
+                    <Item>data/exploration/civs_exploration_balance.sql</Item>
+                    <Item>data/exploration/units_exploration_balance.sql</Item>
+                    <Item>data/exploration/buildings_exploration_balance.sql</Item>
+                    <Item>data/modern/civs_modern_balance.sql</Item>
+                    <Item>data/modern/units_modern_balance.sql</Item>
+                    <Item>data/modern/buildings_modern_balance.sql</Item>
+                </UpdateDatabase>
+                <UpdateText>
+                    <Item>text/en_us/EqualFootingText.xml</Item>
+                </UpdateText>
+                <ImportFiles>
+                    <Item>maps/fairstart_pangaea.js</Item>
+                    <Item>maps/fairstart_continents.js</Item>
+                </ImportFiles>
+            </Actions>
+        </ActionGroup>
+        <ActionGroup id="equal-footing-shell" scope="shell" criteria="always">
+            <Actions>
+                <UpdateText>
+                    <Item>text/en_us/EqualFootingText.xml</Item>
+                </UpdateText>
+            </Actions>
+        </ActionGroup>
+    </ActionGroups>
+    <LocalizedText>
+        <File>text/en_us/EqualFootingText.xml</File>
+    </LocalizedText>
+</Mod>
