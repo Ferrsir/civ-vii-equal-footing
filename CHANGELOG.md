@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.5
+
+- Removed unsafe memento reward level rewrite that caused frontend config rollback.
+- Switched Equal Footing text overrides to direct `Replace` entries and made Ada's visible text match the intended first-pass numbers.
+
 ## 0.1.4
 
 - Changed the root modinfo `version` attribute to integer `1` so Civ VII does not parse the module version as `0`.

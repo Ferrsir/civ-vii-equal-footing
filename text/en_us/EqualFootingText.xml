@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
     <EnglishText>
-        <Row Tag="LOC_MODULE_EQUAL_FOOTING_NAME" Text="Civ VII: Equal Footing"/>
-        <Row Tag="LOC_MODULE_EQUAL_FOOTING_DESCRIPTION" Text="Competitive multiplayer balance that preserves each identity while reducing runaway snowball numbers."/>
+        <Row Tag="LOC_MODULE_EQUAL_FOOTING_NAME">
+            <Text>Civ VII: Equal Footing</Text>
+        </Row>
+        <Row Tag="LOC_MODULE_EQUAL_FOOTING_DESCRIPTION">
+            <Text>Competitive multiplayer balance that preserves each identity while reducing runaway snowball numbers.</Text>
+        </Row>
     </EnglishText>
-    <LocalizedText>
-        <Update>
-            <Where Language="en_US" Tag="LOC_TRAIT_LEADER_ADA_LOVELACE_ABILITY_DESCRIPTION"/>
-            <Set Text="Equal Footing: Mastery science and culture loops are reduced to slow runaway scaling while preserving Ada's mastery identity."/>
-        </Update>
-        <Update>
-            <Where Language="en_US" Tag="LOC_TRAIT_LEADER_CONFUCIUS_ABILITY_DESCRIPTION"/>
-            <Set Text="Equal Footing: City growth bonus reduced; specialist science identity preserved."/>
-        </Update>
-        <Update>
-            <Where Language="en_US" Tag="LOC_TRAIT_LEADER_XERXES_ABILITY_NAME"/>
-            <Set Text="Equal Footing: Xerxes keeps conquest and empire gold tempo with reduced burst rewards."/>
-        </Update>
-        <Update>
-            <Where Language="en_US" Tag="LOC_TRAIT_LEADER_TECUMSEH_ABILITY_NAME"/>
-            <Set Text="Equal Footing: Tecumseh keeps city-state scaling with reduced Dominion and yield snowballing."/>
-        </Update>
-    </LocalizedText>
+    <Replace Tag="LOC_TRAIT_LEADER_ADA_LOVELACE_ABILITY_DESCRIPTION" Language="en_US">
+        <Text>[BLIST][LI][B]Equal Footing:[/B] [icon:YIELD_CITIES] [B]Cities [/B]receive [B]+1[icon:YIELD_SCIENCE] Science [/B]per Age when you complete a [icon:RADIAL_CIVICS] [B]Civic Mastery[/B]. This resets at the start of each Age. [LI]Gain [B][icon:YIELD_CULTURE] Culture [/B]equal to 75% of your total [B][icon:YIELD_SCIENCE] Science [/B]per turn when you complete a [icon:RADIAL_TECH] [B]Technology Mastery[/B].[/LIST]</Text>
+    </Replace>
+    <Replace Tag="LOC_TRAIT_LEADER_CONFUCIUS_ABILITY_DESCRIPTION" Language="en_US">
+        <Text>[B]Equal Footing:[/B] City growth bonus reduced; specialist science identity preserved.</Text>
+    </Replace>
+    <Replace Tag="LOC_TRAIT_LEADER_XERXES_ABILITY_NAME" Language="en_US">
+        <Text>Equal Footing: King of Kings</Text>
+    </Replace>
+    <Replace Tag="LOC_TRAIT_LEADER_TECUMSEH_ABILITY_NAME" Language="en_US">
+        <Text>Equal Footing: Nicaakiyakoolaakwe</Text>
+    </Replace>
 </Database>
