@@ -2,7 +2,7 @@
 
 ## Preflight
 
-- Confirm `EqualFooting.modinfo` appears in Additional Content.
+- Confirm `civ-vii-equal-footing.modinfo` appears in Additional Content as `Civ VII: Equal Footing`.
 - Start one single-player game with base game content only.
 - Start one single-player game with all owned DLC enabled.
 - Create one multiplayer lobby with the mod enabled.
@@ -11,7 +11,7 @@
 
 ## Package Contents
 
-- `EqualFooting.modinfo`
+- `civ-vii-equal-footing.modinfo`
 - `data/`
 - `config/`
 - `text/`

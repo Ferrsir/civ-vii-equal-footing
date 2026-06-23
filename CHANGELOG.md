@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.3
+
+- Renamed the modinfo file to `civ-vii-equal-footing.modinfo` so the file, folder, and mod id can match in the installed package.
+- Cleaned the local install package plan so only mod files are copied, not repository internals or stale deleted scaffolds.
+
 ## 0.1.2
 
 - Changed mod browser metadata to plain visible fields so Add-ons can show the module without depending on localized title lookup.
